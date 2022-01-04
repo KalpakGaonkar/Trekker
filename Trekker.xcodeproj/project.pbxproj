@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A289021B2784BDE500165ABB /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = A289021A2784BDE500165ABB /* Tip.swift */; };
+		A289021D2784BF7B00165ABB /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A289021C2784BF7B00165ABB /* TipsView.swift */; };
 		A2F0535F2757E90400D09277 /* TrekkerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F0535E2757E90400D09277 /* TrekkerApp.swift */; };
 		A2F053612757E90400D09277 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F053602757E90400D09277 /* ContentView.swift */; };
 		A2F053632757E90500D09277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F053622757E90500D09277 /* Assets.xcassets */; };
@@ -14,9 +16,13 @@
 		A2F0536E2757EC6C00D09277 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = A2F0536C2757EC6C00D09277 /* locations.json */; };
 		A2F0536F2757EC6C00D09277 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = A2F0536D2757EC6C00D09277 /* tips.json */; };
 		A2F0537127595F0A00D09277 /* location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F0537027595F0A00D09277 /* location.swift */; };
+		A2F0537327596D6200D09277 /* locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F0537227596D6200D09277 /* locations.swift */; };
+		A2F05375275975C100D09277 /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F05374275975C100D09277 /* WorldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A289021A2784BDE500165ABB /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		A289021C2784BF7B00165ABB /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 		A2F0535B2757E90400D09277 /* Trekker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trekker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F0535E2757E90400D09277 /* TrekkerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrekkerApp.swift; sourceTree = "<group>"; };
 		A2F053602757E90400D09277 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -25,6 +31,8 @@
 		A2F0536C2757EC6C00D09277 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		A2F0536D2757EC6C00D09277 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 		A2F0537027595F0A00D09277 /* location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = location.swift; sourceTree = "<group>"; };
+		A2F0537227596D6200D09277 /* locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locations.swift; sourceTree = "<group>"; };
+		A2F05374275975C100D09277 /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +66,11 @@
 			isa = PBXGroup;
 			children = (
 				A2F0535E2757E90400D09277 /* TrekkerApp.swift */,
+				A2F05374275975C100D09277 /* WorldView.swift */,
+				A289021A2784BDE500165ABB /* Tip.swift */,
+				A289021C2784BF7B00165ABB /* TipsView.swift */,
 				A2F053602757E90400D09277 /* ContentView.swift */,
+				A2F0537227596D6200D09277 /* locations.swift */,
 				A2F0537027595F0A00D09277 /* location.swift */,
 				A2F0536C2757EC6C00D09277 /* locations.json */,
 				A2F0536D2757EC6C00D09277 /* tips.json */,
@@ -150,6 +162,10 @@
 			files = (
 				A2F0537127595F0A00D09277 /* location.swift in Sources */,
 				A2F053612757E90400D09277 /* ContentView.swift in Sources */,
+				A2F05375275975C100D09277 /* WorldView.swift in Sources */,
+				A289021B2784BDE500165ABB /* Tip.swift in Sources */,
+				A289021D2784BF7B00165ABB /* TipsView.swift in Sources */,
+				A2F0537327596D6200D09277 /* locations.swift in Sources */,
 				A2F0535F2757E90400D09277 /* TrekkerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Trekker/Preview Content\"";
+				DEVELOPMENT_TEAM = P55NPQHMZT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -309,6 +326,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Trekker/Preview Content\"";
+				DEVELOPMENT_TEAM = P55NPQHMZT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
